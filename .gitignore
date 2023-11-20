@@ -1,0 +1,6 @@
+.vscode/
+dist/
+deno.lock
+
+*.css
+report.xml
