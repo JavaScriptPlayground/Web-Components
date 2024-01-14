@@ -51,11 +51,12 @@ const TSConfig: esbuild.BuildOptions = {
   outdir: './dist',
   entryNames: '[dir]/bundle.min',
   entryPoints: [
-    './src/**/index.ts',
+    './src/**/index.ts'
   ],
 };
 
 if (!args.watch) {
+
   console.log(bold('Coping HTML files...'));
 
   await esbuild.build(HTMLConfig);
