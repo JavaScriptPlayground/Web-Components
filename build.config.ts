@@ -39,7 +39,7 @@ const SASSConfig: esbuild.BuildOptions = {
 };
 
 const TSConfig: esbuild.BuildOptions = {
-  tsconfig: './tsconfig.json',
+  tsconfig: './deno.json',
   allowOverwrite: true,
   logLevel: 'info',
   legalComments: args.develope ? 'inline' : 'none',
